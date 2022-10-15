@@ -1,0 +1,30 @@
+{
+  "name": "knex_query",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NoviarPutra/crud_query_builder_knex.git"
+  },
+  "author": "NoviarPutra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NoviarPutra/crud_query_builder_knex/issues"
+  },
+  "homepage": "https://github.com/NoviarPutra/crud_query_builder_knex#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "knex": "^2.3.0",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
